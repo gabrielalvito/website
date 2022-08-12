@@ -397,6 +397,7 @@
   .about-text {
     font-size: var(--fs-8);
     margin-block-end: 20px;
+    text-align: justify;
   }
   
   .stats-list {
@@ -436,6 +437,7 @@
     padding: 30px;
     box-shadow: var(--shadow);
     border-radius: var(--radius-12);
+    height: 400px;
   }
   
   .service-card .card-icon {
@@ -947,7 +949,8 @@
     .about .container {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 30px;
+      gap: 60px;
+      align-items: center;
     }
   
   
@@ -956,7 +959,7 @@
      * SERVICE
      */
   
-    .service-list { grid-template-columns: repeat(3, 1fr); }
+    .service-list { grid-template-columns: repeat(2, 1fr); }
   
   
   

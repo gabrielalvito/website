@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body id="top">
@@ -29,7 +31,9 @@
                 <div class="navbar-top">
                     <a href="#" class="logo">PCC</a>
 
-                    <button class="nav-close-btn" aria-label="Close Menu"></button>
+                    <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
 
                 </div>
 
@@ -55,7 +59,7 @@
                 </ul>
             </nav>
 
-            <button class="nav-open-btn" aria-label="Open Menu">
+            <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
                 <ion-icon name="menu-outline"></ion-icon>
             </button>
         </div>
@@ -73,18 +77,113 @@
                         <h1 class="h1 hero-title">PCC</h1>
                         <h2 class="h2 hero-title">SHARE YOUR KNOWLEDGE</h2>
 
-                    
+
                         <button class="btn">Learn More</button>
 
                     </div>
 
                     <figure class="hero-banner">
-                        <img src="./assets/images/logo.png" width="694" height="529" loading="lazy"
-                            alt="hero-banner" class="w-100 banner-animation">
+                        <img src="./assets/images/logo.png" width="694" height="529" loading="lazy" alt="hero-banner"
+                            class="w-100 banner-animation">
                     </figure>
 
                 </div>
             </section>
+
+            <section class="section about" id="about">
+                <div class="container">
+        
+                  <figure class="about-banner">
+                    <img src="./assets/images/foto.jpg" loading="lazy" alt="about banner" class="w-100">
+                  </figure>
+        
+                  <div class="about-content">
+        
+                    <h2 class="h2 section-title underline">Tentang UKM PCC</h2>
+        
+                    <p class="about-text">
+                        UKM Politeknik Computer Club yang disingkat UKM PCC merupakan salah satu Unit Kegiatan Mahasiswa di Politeknik Negeri Semarang yang sudah cukup berumur. Dalam kiprahnya UKM PCC memberikan banyak kontribusi kepada institusi polines sendiri lewat prestasi - prestasi yang telah diraih oleh UKM PCC.
+                    </p>
+        
+                    <p class="about-text">
+                        PCC disahkan sebagai UKM di Politeknik Negeri Semarang pada tanggal 14 Agustus 1992, yang mempunyai tujuan untuk mewadahi, meningkatkan, mengembangkan pengetahuan dan keterampilan dalam bidang IT khususnya bagi para anggota dan umumnya bagi sivitas akademika, serta masyarakat umum dalam rangka mencerdaskan kehidupan bangsa.
+                    </p>
+        
+                    <!-- <ul class="stats-list">
+        
+                      <li class="stats-card">
+                        <p class="h3 stats-title">9875</p>
+        
+                        <p class="stats-text">Satisfied Clients</p>
+                      </li>
+        
+                      <li class="stats-card">
+                        <p class="h3 stats-title">7894</p>
+        
+                        <p class="stats-text">Project Lunched</p>
+                      </li>
+        
+                      <li class="stats-card">
+                        <p class="h3 stats-title">65</p>
+        
+                        <p class="stats-text">Years Completed</p>
+                      </li>
+        
+                    </ul> -->
+        
+                  </div>
+                </div>
+              </section>
+
+              <section class="section service" id="services">
+                <div class="container">
+        
+                  <h2 class="h2 section-title underline">Visi & Misi</h2>
+        
+                  <ul class="service-list">
+        
+                    <li>
+                      <div class="service-card">
+        
+                        <div class="card-icon">
+                          <ion-icon name="telescope-outline"></ion-icon>
+                        </div>
+        
+                        <h3 class="h3 title">Visi</h3>
+        
+                        <p class="text">
+                            Menjadikan UKM PCC sebagai UKM yang bertaqwa kepada Tuhan yang Maha Esa, aktif, kreatif, inovatif, dan bertanggungjawab terhadap organisasi.
+                        </p>
+        
+                      </div>
+                    </li>
+        
+                    <li>
+                      <div class="service-card">
+        
+                        <div class="card-icon">
+                          <ion-icon name="desktop-outline"></ion-icon>
+                        </div>
+        
+                        <h3 class="h3 title">Misi</h3>
+        
+                        <p class="text">
+                            1. Meningkatkan keimanan semua anggota.<br>
+                            2. Meningkatkan dan mengoptimalkan SDM anggota untuk kejayaan UKM PCC.<br>
+                            3. Menimbulkan rasa peduli dengan sesama anggota.<br>
+                            4. Menjalin hubungan kerja sama antar ukm atau komunitas computer lainya.
+                        </p>
+        
+                      </div>
+                    </li>
+        
+                  </ul>
+        
+                </div>
+              </section>
+
+
+
         </article>
     </main>
 
@@ -93,14 +192,8 @@
 
 
 
-    <!-- 
-    - custom js link
-  -->
-    <script src="./assets/js/script.js"></script>
 
-    <!-- 
-    - ionicon link
-  -->
+    <script src="./assets/js/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
