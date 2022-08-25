@@ -194,61 +194,23 @@ section {
     z-index: -1;
 }
 
-/* reviews-carousel */
-#reviews {
-    background-image: url(../images/reviews.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.reviews-carousel {
-    max-width: 700px;
-    background-color: var(--color-bg-1);
-}
-
-.review img {
-    width: 65px;
-    border-radius: 100px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    margin: auto;
-    width: 40px;
-}
-
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-    background-color: var(--color-brand);
-}
-
-.carousel-control-prev {
-    border-right: 1px solid var(--color-border);
-}
-
-.carousel-control-next {
-    border-left: 1px solid var(--color-border);
-}
-
 /* blog post */
 .blog-post {
     border-radius: var(--border-radius);
-    background-color: var(--color-bg-2);
+    /* background-color: var(--color-bg-2); */
 }
 
 .blog-post img {
-    border-top-left-radius: var(--border-radius);
-    border-top-right-radius: var(--border-radius);
+    min-height: 250px;
+    /* border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius); */
 }
 
 .blog-post .title {
     line-height: 1.4;
 }
 
-.bg-image-2 {
-    background-image: url(../images/cover2.jpg);
-}
+
 
 /* FOOTER */
 footer {
