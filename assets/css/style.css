@@ -192,6 +192,7 @@ section {
     left: 0;
     bottom: 0;
     z-index: -1;
+    margin-bottom: 20px;
 }
 
 /* blog post */
@@ -210,6 +211,7 @@ section {
     line-height: 1.4;
 }
 
+/* GALERI */
 
 
 /* FOOTER */
