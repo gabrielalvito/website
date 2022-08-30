@@ -1,0 +1,825 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polytechnic Computer Club</title>
+    <link rel="icon" href="assets/images/pcc.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h4>UKM PCC</h4>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#event">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeri">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pengurus">Kepengurusan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="pb-0">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-12" data-aos="fade-up">
+                    <h1 class="display-4">POLYTECHNIC COMPUTER CLUB</h1>
+                    <figure class="hero-banner">
+                        <img src="./assets/images/pcc.png" class="p-5" style="height: 25%; width :25%;">
+                    </figure>
+                    <h3>SHARE YOUR KNOWLEDGE</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section id="about" class="border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section-title" data-aos="fade-up" data-aos-delay="50">
+                        <h6 >ABOUT US</h6>
+                        <!-- <h3>UKM Politeknik Computer Club yang disingkat UKM PCC <br>merupakan salah satu Unit Kegiatan Mahasiswa 
+                        <br>di Politeknik Negeri Semarang </h3> -->
+                    </div>
+
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="50">
+                            <img src="./assets/images/foto.jpg" class="rounded-5" alt="">
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="150" class="col-lg-5">
+                            <p class="mt-3 mb-4" style="text-align: justify;">
+                                UKM Politeknik Computer Club yang disingkat UKM PCC merupakan salah satu Unit Kegiatan
+                                Mahasiswa di
+                                Politeknik Negeri Semarang yang sudah cukup berumur. Dalam kiprahnya UKM PCC memberikan
+                                banyak kontribusi kepada
+                                institusi polines sendiri lewat prestasi - prestasi yang telah diraih oleh UKM PCC.
+                            </p>
+                            <p class="mt-3 mb-4" style="text-align: justify;">
+                                PCC disahkan sebagai UKM di Politeknik Negeri Semarang pada tanggal 14 Agustus 1992,
+                                yang
+                                mempunyai tujuan untuk
+                                mewadahi, meningkatkan, mengembangkan pengetahuan dan keterampilan dalam bidang IT
+                                khususnya
+                                bagi para anggota dan
+                                umumnya bagi sivitas akademika, serta masyarakat umum dalam rangka mencerdaskan
+                                kehidupan
+                                bangsa.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="section-title" data-aos="fade-up">
+                        <h6 style="margin-top:100px; margin-bottom:30px;">VISI & MISI</h6>
+                    </div>
+
+                    <div class="row gy-4">
+                        <div class="col-lg-6 col-sm-6" data-aos="fade-up">
+                            <div class="service p-4 h-100">
+                                <div class="icon-box">
+                                    <i class="bi bi-clipboard-check"></i>
+                                </div>
+                                <h5 class="mt-4 mb-3">Visi</h5>
+                                <p>Menjadikan UKM PCC sebagai UKM yang bertaqwa kepada <br>Tuhan yang Maha Esa, aktif,
+                                    kreatif, inovatif, dan
+                                    <br>bertanggungjawab terhadap organisasi.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="service p-4 h-100">
+                                <div class="icon-box">
+                                    <i class="bi bi-card-checklist"></i>
+                                </div>
+                                <h5 class="mt-4 mb-3">Misi</h5>
+                                <p>
+                                    Meningkatkan keimanan semua anggota.<br>
+                                    Meningkatkan dan mengoptimalkan SDM anggota untuk kejayaan UKM PCC.<br>
+                                    Menimbulkan rasa peduli dengan sesama anggota.<br>
+                                    Menjalin hubungan kerja sama antar ukm atau komunitas computer lainya.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="event" class="border-bottom">
+        <div class="container">
+            <div class="col-12 text-center">
+                <div class="section-title" data-aos="fade-up" data-aos-delay="50">
+                    <h6 >EVENTS</h6>
+                </div>
+            </div>
+            <div class="row mt-0 gy-4 justify-content-between" style="margin-bottom: 70px;">
+                <div class="col-lg-6 order-lg-first order-last" data-aos="fade-down-right">
+                    <div class="section-title" style="text-align: justify;">
+                        <h2>TRAINING BASIC</h2>
+                        <p class="mx-auto mt-3">
+                            Training Basic merupakan salah satu program kerja UKM PCC yang bertujuan untuk memberikan
+                            pelatihan dan mengenalkan tiga
+                            bidang departemen dibawah Workshop UKM PCC kepada calon anggota baru UKM PCC.
+                        </p>
+                        <ul class="feature-list mt-4">
+                            <li class="d-flex align-items-center mt-2">
+                                <div class="icon-box sm me-3"><i class="ri-check-line"></i></div>
+                                <span>Software</span>
+                            </li>
+
+                            <li class="d-flex align-items-center mt-2">
+                                <div class="icon-box sm me-3"><i class="ri-check-line"></i></div>
+                                <span>Multimedia</span>
+                            </li>
+
+                            <li class="d-flex align-items-center mt-2">
+                                <div class="icon-box sm me-3"><i class="ri-check-line"></i></div>
+                                <span>Network</span>
+                            </li>
+                        </ul>
+                        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#daftartb">Daftar</button> -->
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-down-left"data-aos-delay="300">
+                    <img src="./assets/images/TB.png" class="rounded-4" alt="">
+                </div>
+            </div>
+
+            <div class="row gy-4 justify-content-between" style="margin-bottom: 70px;">
+                <div class="col-lg-6" data-aos="fade-down-right">
+                    <img src="./assets/images/Class.png" class="rounded-4" alt="">
+                </div>
+                <div class="col-lg-6" data-aos="fade-down-left" data-aos-delay="300">
+                    <div class="section-title" style="text-align: justify;">
+                        <h2>PCC Class</h2>
+                        <p class="mx-auto mt-3">
+                            PCC Class merupakan salah satu program kerja UKM PCC yang bertujuan untuk berbagi ilmu
+                            pengetahuan tentang IT kepada
+                            mahasiswa Politeknik Negeri Semarang. PCC Class Ini merupakan lanjutan dari kegiatan UKM PCC
+                            sebelumnya yaitu Training
+                            Basic, dimana materi yang diberikan lebih advance.
+                        </p>
+                        <ul class="feature-list mt-4">
+                            <li class="d-flex align-items-center mt-2">
+                                <div class="icon-box sm me-3"><i class="ri-check-line"></i></div>
+                                <span>Software</span>
+                            </li>
+
+                            <li class="d-flex align-items-center mt-2">
+                                <div class="icon-box sm me-3"><i class="ri-check-line"></i></div>
+                                <span>Multimedia</span>
+                            </li>
+
+                            <li class="d-flex align-items-center mt-2">
+                                <div class="icon-box sm me-3"><i class="ri-check-line"></i></div>
+                                <span>Network</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 justify-content-between">
+                <div class="col-lg-6 order-lg-first order-last" data-aos="fade-down-right">
+                    <div class="section-title" style="text-align: justify;">
+                        <h2>TECHCOMFEST</h2>
+                        <p class="mx-auto mt-3">
+                            Techcomfest adalah salah satu wujud misi dan peran aktif UKM Polytechnic Computer Club dalam
+                            mengikuti perkembangan
+                            teknologi dalam bidang IT. Dengan diadakannya kegiatan Techcomfest, diharapkan siswa/i
+                            SMA/SMK sederajat dan Mahasiswa/i
+                            tingkat nasional dapat menyalurkan inovasi dan kreativitas mereka khususnya dalam bidang
+                            teknologi dan informasi.
+                        </p>
+                        <ul class="feature-list mt-4">
+                            <li class="d-flex align-items-center mt-2">
+                                <div class="icon-box sm me-3"><i class="ri-check-line"></i></div>
+                                <span>Software</span>
+                            </li>
+
+                            <li class="d-flex align-items-center mt-2">
+                                <div class="icon-box sm me-3"><i class="ri-check-line"></i></div>
+                                <span>Multimedia</span>
+                            </li>
+
+                            <li class="d-flex align-items-center mt-2">
+                                <div class="icon-box sm me-3"><i class="ri-check-line"></i></div>
+                                <span>Network</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-down-left" data-aos-delay="300">
+                    <img src="./assets/images/Techcomfest.jpg" class="rounded-4" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERI -->
+    <section id="galeri" class="border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title text-center" data-aos="fade-up" data-aos-delay="50">
+                        <h6>GALERI</h6>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12" data-aos="fade-up">
+                            <div class="service p-4">
+                                <div id="carouselimg" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators align-bottom">
+                                        <button type="button" data-bs-target="#carouselimg"
+                                            data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselimg"
+                                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselimg"
+                                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselimg"
+                                            data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselimg"
+                                            data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        <button type="button" data-bs-target="#carouselimg"
+                                            data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        <button type="button" data-bs-target="#carouselimg"
+                                            data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                        <button type="button" data-bs-target="#carouselimg"
+                                            data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                        <!-- <button type="button" data-bs-target="#carouselimg"
+                                            data-bs-slide-to="8" aria-label="Slide 9"></button> -->
+                                    </div>
+                                    <!-- <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="row gy-4 d-flex justify-content-center">
+                                                <h3 class="text-center">Bedah Posko</h3>
+                                                <div class="column w-75 p-3 m-2 d-flex justify-content-center">
+                                                    <img src="./assets/images/foto.jpg" class="w-75 rounded-5" style="max-height: 390px;" alt="">
+                                                </div>
+                                                <div class="column w-75 p-5 m-2 d-flex justify-content-center">
+                                                    <div class="row" style="min-height: 100px;">
+                                                        <p style="text-align: center;">
+                                                            Bedah posko biasanya akan dilaksanakan selama 2 kali dalam 1 kali
+                                                            periode kepengurusan. Bedah Posko diadakan untuk merapikan dan 
+                                                            menata ulang letak barang barang yang berada
+                                                            di posko, mendata inventaris barang barang yang berada di posko, 
+                                                            membuang barang barang yang dirasa sudah tidak terpakai
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row gy-4 d-flex justify-content-center">
+                                                    <h3 class="text-center">Sertijab</h3>
+                                                    <div class="column w-75 p-3 m-2 d-flex justify-content-center">
+                                                        <img src="./assets/images/Sertijab.jpg" class="w-75 rounded-5" style="max-height: 390px;" alt="">
+                                                    </div>
+                                                    <div class="column w-75 p-5 d-flex justify-content-center">
+                                                        <div class="row" style="min-height: 102px;">
+                                                            <p style="text-align: center;">
+                                                                Melantik pengurus UKM PCC yang baru yang sebelumnya 
+                                                                merupakan Anggota Aktif yang telah lolos melalui tahapan 
+                                                                seleksi dari HRD dan Tim Formatur serta atas kebijakan dari 
+                                                                Administrator dan melepas jabatan Pengurus UKM PCC yang 
+                                                                telah selesai masa jabatannya sesuai dengan kesepakatan 
+                                                                Anggaran Dasar.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <div class="carousel-item">
+                                            <div class="row gy-4 d-flex justify-content-center">
+                                                <h3 class="text-center">Makrab</h3>
+                                                <div class="column w-75 p-3 m-2 d-flex justify-content-center">
+                                                    <img src="./assets/images/Makrab.png" class="w-75 rounded-5" style="min-height: 390px;" alt="">
+                                                </div>
+                                                <div class="column w-75 p-5 d-flex justify-content-center">
+                                                    <div class="row" style="min-height: 100px;">
+                                                        <p style="text-align: center;">
+                                                            Makrab bertujuan untuk menciptakan rasa kekeluargaan 
+                                                            <br>dan menjalin kerukunan antar pengurus UKM PCC, 
+                                                            <br>serta membuat para pengurus untuk saling mengenal satu sama lain.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row gy-4 d-flex justify-content-center">
+                                                <h3 class="text-center">Sidum Raker</h3>
+                                                <div class="column w-75 p-3 m-2 d-flex justify-content-center">
+                                                    <img src="./assets/images/sidumraker.JPG" class="w-75 rounded-5" style="max-height: 390px;" alt="">
+                                                </div>
+                                                <div class="column w-75 p-5 d-flex justify-content-center">
+                                                    <div class="row" style="min-height: 101px;">
+                                                        <p style="text-align: center;">
+                                                            Sidum dilaksanakan dengan tujuan membahas dan menetapkan AD/ART UKM PCC untuk satu 
+                                                            tahun periode, sementara Raker dilaksanakan untuk menetapkan seluruh kegiatan selama satu tahun 
+                                                            kepengurusan UKM PCC beserta seluruh anggota 
+                                                            kepanitiaan dan tujuan yang ingin dicapai.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row gy-4 d-flex justify-content-center">
+                                                <h3 class="text-center">Oprec</h3>
+                                                <div class="column w-75 p-3 m-2 d-flex justify-content-center">
+                                                    <img src="./assets/images/Oprec.jpg" class="w-75 rounded-5" style="max-height: 390px;" alt="">
+                                                </div>
+                                                <div class="column w-75 p-5 d-flex justify-content-center">
+                                                    <div class="row" style="min-height: 121px;">
+                                                        <p style="text-align: center;">
+                                                            Oprec dilaksanakan untuk menarik minat peserta Oprec untuk mendalami ilmu 
+                                                            yang diajarkan di PCC dan memberikan pandangan secara luas mengenai seluk 
+                                                            beluk UKM PCC.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row gy-4 d-flex justify-content-center">
+                                                <h3 class="text-center">HUT UKM PCC</h3>
+                                                <div class="column w-75 p-3 m-2 d-flex justify-content-center">
+                                                    <img src="./assets/images/Hut.JPG" class="w-75 rounded-5" style="max-height: 390px;" alt="">
+                                                </div>
+                                                <div class="column w-75 p-5 d-flex justify-content-center">
+                                                    <div class="row" style="min-height: 102px;">
+                                                        <p style="text-align: center;">
+                                                            HUT dilaksanakan untuk memperingati hari lahirnya UKM Polytechnic 
+                                                            Computer Club, serta mempertemukan antar pengurus, anggota aktif, alumni, 
+                                                            dan calon anggota baru UKM Polytechnic Computer Club.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="carousel-item">
+                                            <div class="row gy-4 d-flex justify-content-center">
+                                                <h3 class="text-center">Cakra</h3>
+                                                <div class="column w-75 p-3 m-2 d-flex justify-content-center">
+                                                    <img src="./assets/images/Cakra.jpg" class="w-75 rounded-5" style="min-height: 390px;" alt="">
+                                                </div>
+                                                <div class="column w-75 p-5 d-flex justify-content-center">
+                                                    <div class="row" style="min-height: 100px;">
+                                                        <p style="text-align: center;">
+                                                            Makrab bertujuan untuk menciptakan rasa kekeluargaan 
+                                                            <br>dan menjalin kerukunan antar pengurus UKM PCC, 
+                                                            <br>serta membuat para pengurus untuk saling mengenal satu sama lain.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <div class="carousel-item">
+                                            <div class="row gy-4 d-flex justify-content-center">
+                                                <h3 class="text-center">Pendas PAB</h3>
+                                                <div class="column w-75 p-3 m-2 d-flex justify-content-center">
+                                                    <img src="./assets/images/Pendas.JPG" class="w-75 rounded-5" style="max-height: 390px;" alt="">
+                                                </div>
+                                                <div class="column w-75 p-5 d-flex justify-content-center">
+                                                    <div class="row">
+                                                        <div class="row" style="min-height: 100px;">
+                                                            <p style="text-align: center;">
+                                                                Pendas PAB merupakan salah satu proker besar PCC yang bertujuan
+                                                                untuk memberikan pendidikan dasar keorganisasian kepada calon
+                                                                anggota aktif UKM PCC dan melantik anggota aktif PCC yang baru
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row gy-4 d-flex justify-content-center">
+                                                <h3 class="text-center">Goes To Public</h3>
+                                                <div class="column w-75 p-3 m-2 d-flex justify-content-center">
+                                                    <img src="./assets/images/gtp.JPG" class="w-75 rounded-5" style="max-height: 390px;" alt="">
+                                                </div>
+                                                <div class="column w-75 p-5 d-flex justify-content-center">
+                                                    <div class="row" style="min-height: 102px;">
+                                                        <p style="text-align: center;">
+                                                            Goes To Public bertujuan untuk memperkenalkan Politeknik Negeri Semarang dan Unit Kegiatan 
+                                                            Mahasiswa Polytechnic Computer Club kepada masyarakat umum, 
+                                                            dan mengaplikasikan ilmu pengetahuan dan keterampilan anggota 
+                                                            UKM PCC untuk membantu sesama.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row gy-4 d-flex justify-content-center">
+                                                <h3 class="text-center">Studi Banding</h3>
+                                                <div class="column w-75 p-3 m-2 d-flex justify-content-center">
+                                                    <img src="./assets/images/Stuban.jpg" class="w-75 rounded-5" style="max-height: 390px;" alt="">
+                                                </div>
+                                                <div class="column w-75 p-5 d-flex justify-content-center">
+                                                    <div class="row" style="min-height: 101px;">
+                                                        <p style="text-align: center;">
+                                                            Studi Banding dilaksanakan untuk menjalin hubungan dengan UKM yang sebidang dengan
+                                                            UKM PCC dari Politeknik/Universitas lain, membandingkan praktek pengelolaan UKM PCC
+                                                            dengan UKM yang sebidang dari Politeknik/Universitas
+                                                            lain, dan menambah pengetahuan dan wawasan.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    <div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselimg" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselimg" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- KEPENGURUSAN -->
+    <section id="pengurus" class="border-bottom">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section-title" data-aos="fade-up" data-aos-delay="50">
+                        <h6 style="margin-bottom: 30px;">KEPENGURUSAN</h6>
+                        <h2>Meet Our Administrator and Sekretaris Umum</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-12">
+                <div class="col-lg-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-member p-5 pt-0">
+                        <img src="./assets/images/1.png" class="rounded-circle" alt="">
+                        <h5 class="mt-6">Chairul An'Aam Maulidin</h5>
+                        <p>Administrator</p>
+
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/chrlanmdn/" class="icon-box social-icon"><i
+                                    class="ri-instagram-fill"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-member p-5 pt-0">
+                        <img src="./assets/images/4.png" class="rounded-circle" alt="">
+                        <h5 class="mt-6">Rifka Anggun Puspitaningrum</h5>
+                        <p>Sekretaris Umum</p>
+
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/rifkaap_08/" class="icon-box social-icon"><i
+                                    class="ri-instagram-fill"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <!-- Blog -->
+    <section id="blog" class="border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section-title" data-aos="fade-up" data-aos-delay="50">
+                        <h6 style="margin-bottom: 30px;">BLOG</h6>
+                        <h2>Take a look at our articles & blog</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-5">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-post">
+                        <img src="./assets/images/blog1.png" alt="">
+                        <div class="bp-content pt-4">
+                            <h4>Sukses Bangun Sistem Reseller</h4>
+                            <p>Sedang atau Ingin Membangun Sistem Reseller?</p>
+                            <a href="https://blog.ukmpcc.org/detail/sukses-bangun-sistem-reseller" class="">
+                                <span>Read More</span>
+                                <!-- <i class="ri-arrow-right-line"></i> -->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-post">
+                        <img src="./assets/images/blog2.png" alt="">
+                        <div class="bp-content pt-4">
+                            <h4>Cara Mengatasi Laptop Hang</h4>
+                            <p>Laptop adalah suatu perangkat yang saat ini menjadi kebutuhan umum bagi kebanyakan
+                                kalangan saat ini.</p>
+                            <a href="https://blog.ukmpcc.org/detail/cara-mengatasi-laptop-hang" class="">
+                                <span>Read More</span>
+                                <!-- <i class="ri-arrow-right-line"></i> -->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-post">
+                        <img src="./assets/images/blog3.png" alt="">
+                        <div class="bp-content pt-4">
+                            <h4>Kembangkan Bisnis dengan Teknologi Informasi</h4>
+                            <p>Perkembangan teknologi informasi masa kini tidak lagi menjadi sesuatu yang bersifat
+                                terbatas atau hanya dimiliki
+                                golongan pekerja menengah ke atas. Dampaknya yang besar membuat teknologi informasi
+                                tidak terpisahkan dari dunia
+                                bisnis dan industri.</p>
+                            <a href="https://blog.ukmpcc.org/detail/kembangkan-bisnis-dengan-teknologi-informasi"
+                                class="">
+                                <span>Read More</span>
+                                <!-- <i class="ri-arrow-right-line"></i> -->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">SOCIAL</h5>
+                        <div class="line"></div>
+                        <p>Take a look at our social media accounts</p>
+
+                        <div class="social-icons">
+                            <a href="https://twitter.com/ukmpcc"><i class="ri-twitter-fill"></i></a>
+                            <a href="https://www.instagram.com/pccpolines/"><i class="ri-instagram-fill"></i></a>
+                            <a href="https://open.spotify.com/show/6HFgdgTpAlTeLWSZi7323u?si=263bc4172a044efe"><i
+                                    class="ri-spotify-fill"></i></a>
+                            <a href="https://www.youtube.com/c/UKMPCCPOLINES"><i class="ri-youtube-fill"></i></a>
+                            <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=uaz3953u"><i
+                                    class="ri-line-fill"></i></a>
+                            <a href="https://www.facebook.com/ukmpcc/"><i class="ri-facebook-fill"></i></a>
+                            <!-- <a href="https://www.tiktok.com/@pcc.polines"><i class="fa-brands fa-tiktok"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">SERVICES</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li><a href="#">Web Project</a></li>
+                            <li><a href="https://www.instagram.com/mulmedpcc/">Graphic Design</a></li>
+                            <li><a href="https://www.instagram.com/pccsolution/">Device Maintenance</a></li>
+                            <li><a href="https://www.instagram.com/pccstore/">Store</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">ABOUT</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li><a href="https://blog.ukmpcc.org/">Blog</a></li>
+                            <li><a href="https://ukmpcc.org/">Website</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">CONTACT</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li>Semarang, Indonesia</li>
+                            <li>Politeknik Negeri Semarang</li>
+                            <li>www.ukmpcc.org</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row g-4 justify-content-between">
+                    <div class="col-auto">
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0"><a href="#">UKM PCC 2022</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- The Modal -->
+    <div class="modal" style="color:black;" id="daftartb">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="text-center modal-header">
+                    <h4 class="modal-title" style="color:black;">Pendaftaran Training Basic</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="index.php" class="was-validated">
+                        <div class="mb-1 mt-3">
+                            <label for="name" class="form-label">Nama:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Ichsanul" name="nama"
+                                required>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="mb-1">
+                            <label for="kls" class="form-label">Kelas:</label>
+                            <input type="text" class="form-control" id="kls" placeholder="TI-2A" name="kelas" required>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="mb-1">
+                            <label for="prodi" class="form-label">Prodi:</label>
+                            <input type="text" class="form-control" id="prodi"
+                                placeholder="D4-Teknologi Rekayasa Komputer" name="prodi" required>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="mb-1">
+                            <label for="wa" class="form-label">No. WA:</label>
+                            <input type="text" class="form-control" id="wa" placeholder="081234567891" name="hp"
+                                required>
+
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="materi" class="form-label">Materi</label>
+
+                            <div id="accordion">
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="btn form-control" data-bs-toggle="collapse" href="#sopwer">
+                                            Software
+                                        </a>
+                                    </div>
+                                    <div id="sopwer" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+                                            incidunt expedita aut eveniet officiis, libero laudantium tenetur beatae
+                                            ipsum, molestiae ipsam nobis sapiente molestias a quas fugiat vitae ea
+                                            numquam delectus! Doloremque harum tenetur vero corrupti aliquam optio
+                                            impedit quo iure dolorem? Iure libero, numquam cumque quos dicta dolor
+                                            aliquid molestias maiores nemo non eligendi necessitatibus sequi, corrupti
+                                            sit maxime architecto fugiat laudantium voluptates laborum accusantium
+                                            iusto, in eius? Nemo similique, aspernatur accusantium optio alias provident
+                                            quidem libero necessitatibus possimus ducimus, reprehenderit esse? Cum
+                                            aspernatur iste odio magni explicabo totam aliquam laborum officiis cumque
+                                            eaque, pariatur, laudantium et dolor aliquid!
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="collapsed btn form-control" data-bs-toggle="collapse" href="#network">
+                                            Network
+                                        </a>
+                                    </div>
+                                    <div id="network" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt repellendus
+                                            quae fugiat debitis totam inventore saepe earum maiores numquam itaque
+                                            tempore, atque voluptas ipsa soluta in dolore officiis quasi, non maxime
+                                            repudiandae molestiae! Dignissimos a architecto necessitatibus harum
+                                            veritatis mollitia nisi facere soluta cupiditate magni obcaecati at quod
+                                            deserunt excepturi, assumenda distinctio ipsum suscipit. Reiciendis, sit
+                                            iure? Consectetur optio minus nemo vero maxime officia cumque quibusdam
+                                            quas, repellat laudantium ab voluptates aperiam nisi dignissimos fugit enim
+                                            repellendus ad officiis dolores eum aliquam. Unde ipsum non enim
+                                            dignissimos. Totam nobis itaque facilis nemo magnam facere, eligendi ipsa
+                                            quam corrupti, molestias laudantium.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="collapsed btn form-control" data-bs-toggle="collapse" href="#mulmed">
+                                            Multimedia
+                                        </a>
+                                    </div>
+                                    <div id="mulmed" class="collapse" data-bs-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam iure
+                                            voluptatibus, excepturi culpa, ducimus nulla quaerat vero a quas similique
+                                            at blanditiis, accusantium harum odit praesentium suscipit. Illo nobis
+                                            numquam est sit facere modi magnam et fugit iure, quibusdam aspernatur sequi
+                                            magni minima blanditiis quas, omnis corporis aperiam officiis ab obcaecati
+                                            fuga? Soluta architecto mollitia excepturi temporibus optio, saepe eligendi!
+                                            Blanditiis possimus vitae excepturi rem sapiente qui! Hic cupiditate eius
+                                            reprehenderit voluptatibus delectus ducimus eligendi omnis voluptas eos,
+                                            enim veritatis mollitia nemo officiis molestias quibusdam voluptate sapiente
+                                            possimus? Totam numquam molestias quasi repudiandae inventore rerum cumque,
+                                            temporibus autem nesciunt eveniet!
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="mb-1">
+                            <label for="pilihan" class="form-label">Pilihan:</label>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="pilihan[]" value="software"
+                                            placeholder="Enter password">
+                                        Software
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="pilihan[]" value="mulmed"
+                                            placeholder="Enter password">
+                                        Multimedia
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="pilihan[]" value="network"
+                                            placeholder="Enter password">
+                                        Network
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="submit" name="simpantb" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://use.fontawesome.com/f6ffd8c6f3.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

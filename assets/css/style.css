@@ -1,23 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 :root {
-    --color-bg-1: #121212;
-    --color-bg-2: #242424;
-    --color-brand: #e7b837;
+    --color-bg-1: #091929;
+    --color-bg-2: rgba(24, 79, 130, 0.4);
+    --color-brand: #5291ff;
     --color-brand-light: #dbb959;
-    --color-body: #c0c0c0;
+    --color-body: white;
     --color-border: rgba(255, 255, 255, 0.1);
-    --color-heading: #fff;
+    --color-heading: white;
     --font-main: "Plus Jakarta Sans";
     --border-radius: 32px;
 }
 
 body {
-    background-color: var(--color-bg-1);
+    background: linear-gradient( 98deg, rgba(6, 28, 49, 1) 27%, rgba(10, 50, 87, 1) 60%, rgba(28, 79, 116, 1) 90% );
     color: var(--color-body);
     font-family: var(--font-main);
     line-height: 1.7;
 }
+
+/* body { */
+    /* background: rgb(2,0,144);
+    background: radial-gradient(circle, rgba(2,0,144,1) 0%, rgba(10,8,70,1) 100%); */
+    /* background: rgb(3,0,161);
+    background: radial-gradient(circle, rgba(3,0,161,1) 0%, rgba(0,22,116,1) 100%); */
+    /* background: rgb(0,12,162);
+    background: radial-gradient(circle, rgba(0,12,162,1) 0%, rgba(0,1,124,1) 100%); */
+    /* background: linear-gradient( 98deg, rgb(0, 23, 77) 27%, rgba(2,0,144,1) 60%, rgb(2, 0, 96) 90% ); */
+    /* background: linear-gradient( 98deg, rgb(0, 38, 120) 1%, rgb(0, 56, 102) 60%, rgb(0, 43, 96) 90% ); */
+/* 
+    color: var(--color-body);
+    font-family: var(--font-main);
+    line-height: 1.7; */
+/* } */
 
 h1,
 h2,
@@ -59,7 +74,7 @@ section {
 
 /* Btn */
 .btn {
-    padding: 12px 24px;
+    /* padding: 12px 24px; */
 }
 
 .btn-brand {
@@ -133,6 +148,7 @@ section {
 .service {
     border-radius: var(--border-radius);
     background-color: var(--color-bg-2);
+    
 }
 
 .icon-box {
@@ -188,6 +204,7 @@ section {
     width: 100%;
     height: calc(100% - 90px);
     background-color: var(--color-bg-2);
+    border-radius: var(--border-radius);
     position: absolute;
     left: 0;
     bottom: 0;
